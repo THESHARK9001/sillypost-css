@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  background-image: url("https://wallpaperaccess.com/full/2144614.jpg");
+}
+
+body > * {
+  font-family: "Exo 2", "Exo 2";
+}
+
+#profile-bio > * {
+  text-align: center;
+}
+
+.left > * {
+  text-align: center;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  background: linear-gradient(to right, #fff, #eae4ff);
+  border-bottom: 1px solid maroon;
+}
+
+#profile-top > * {
+  margin: 20px;
+  outline-style: inset;
+  background-color: #000;
+  outline-offset: 5px;
+  outline-color: #000;
+  border-radius: 5px;
+}
+
+#navbar {
+  background-color: #fff;
+  color: #fff;
+}
+
+#header > * {
+  background-color: #fff;
+  color: #fff;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 14px solid #0000;
+  border-image: url(" ") 112 repeat;
+  background: linear-gradient(to left, #000, #000);
+  width: 100%;
+  padding: 0;
+  border-radius: 5px;
+  color: #8000ff;
+}
+
+.post-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+#main {
+  background-color: #8000ff;
+  background-image: url("https://wallpaperaccess.com/full/2144614.jpg");
+}
