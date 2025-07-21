@@ -9,6 +9,7 @@ a {
 
 input {
   cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+  border-radius: 0;
 }
 
 #header-avatar {
