@@ -70,3 +70,19 @@ body > * {
   background-color: #8000ff;
   background-image: url("https://wallpaperaccess.com/full/2144614.jpg");
 }
+
+* {
+  cursor: url("https://cdn.custom-cursor.com/db/4732/32/arrow2699.png"), auto;
+}
+
+a {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+}
+
+input {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+}
+
+#header-avatar {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+}
