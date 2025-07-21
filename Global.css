@@ -18,3 +18,24 @@ body:after {
 body > * {
   font-family: "Exo 2", "Exo 2";
 }
+
+* {
+  cursor: url("https://cdn.custom-cursor.com/db/4732/32/arrow2699.png"), auto;
+}
+
+a {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+}
+
+input {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+  border-radius: 0px;
+}
+
+#header-avatar {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+}
+
+button {
+  border-radius: 0;
+}
