@@ -1,21 +1,22 @@
+/* You can change these values*/
 :root {
-  --horizontal-duration: 19.94s;
-  --vertical-duration: 13.82s;
-  --horizontal-delay: -4s;
-  --vertical-delay: -2s;
+  --horizontal-duration: 29.91s;
+  --vertical-duration: 20.73s;
+  --horizontal-delay: -6s;
+  --vertical-delay: -3s;
 }
-
+/* DO NOT TOUCH THESE*/
 #profile-top-left img {
   position: fixed;
   width: 128px;
   height: 128px;
   animation: var(--horizontal-duration) linear var(--horizontal-delay) infinite forwards horizontal, var(--vertical-duration) linear var(--vertical-delay) infinite forwards vertical;
 }
-
+/* DO NOT TOUCH THESE*/
 #profile-top-left > * {
   text-align: center;
 }
-
+/* DO NOT TOUCH THESE*/
 @keyframes horizontal {
   0% {
     left: 0%;
@@ -29,7 +30,7 @@
     left: 0%;
   }
 }
-
+/* DO NOT TOUCH THESE*/
 @keyframes vertical {
   0% {
     top: 0%;
