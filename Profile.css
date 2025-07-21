@@ -2,10 +2,10 @@
 @import "https://fonts.googleapis.com/css?family=Exo+2";
 
 :root {
-  --horizontal-duration: 19.94s;
-  --vertical-duration: 13.82s;
-  --horizontal-delay: -4s;
-  --vertical-delay: -2s;
+  --horizontal-duration: 29.91s;
+  --vertical-duration: 20.73s;
+  --horizontal-delay: -6s;
+  --vertical-delay: -3s;
 }
 
 #profile-top-left img {
