@@ -1,0 +1,159 @@
+@import "https://fonts.googleapis.com/css?family=Exo+2";
+
+:root {
+  --horizontal-duration: 19.94s;
+  --vertical-duration: 13.82s;
+  --horizontal-delay: -4s;
+  --vertical-delay: -2s;
+}
+
+#profile-top-left img {
+  position: fixed;
+  width: 128px;
+  height: 128px;
+  animation: var(--horizontal-duration) linear var(--horizontal-delay) infinite forwards horizontal, var(--vertical-duration) linear var(--vertical-delay) infinite forwards vertical;
+  border-radius: 5px;
+}
+
+#profile-top-left > * {
+  text-align: center;
+}
+
+@keyframes horizontal {
+  0% {
+    left: 0%;
+  }
+
+  50% {
+    left: calc(100% - 128px);
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes vertical {
+  0% {
+    top: 0%;
+  }
+
+  50% {
+    top: calc(100% - 128px);
+  }
+
+  100% {
+    top: 0%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  background-image: url("https://wallpaperaccess.com/full/2144614.jpg");
+}
+
+body > * {
+  font-family: "Exo 2", "Exo 2";
+}
+
+#profile-bio > * {
+  text-align: center;
+}
+
+.left > * {
+  text-align: center;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  background: linear-gradient(to right, #fff, #eae4ff);
+  border-bottom: 1px solid maroon;
+}
+
+#profile-top > * {
+  margin: 20px;
+  outline-style: inset;
+  background-color: #000;
+  outline-offset: 5px;
+  outline-color: #000;
+  border-radius: 5px;
+}
+
+#navbar {
+  background-color: #fff;
+  color: #fff;
+}
+
+#header > * {
+  background-color: #fff;
+  color: #fff;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 14px solid #0000;
+  border-image: url(" ") 112 repeat;
+  background: linear-gradient(to left, #000, #000);
+  width: 100%;
+  padding: 0;
+  border-radius: 5px;
+  color: #8000ff;
+}
+
+.post-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+#main {
+  background-color: #8000ff;
+  background-image: url("https://wallpaperaccess.com/full/2144614.jpg");
+}
+
+#wrapper {
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  background-color: #f4f5ff;
+  box-shadow: 0 0 #385d6a;
+}
+
+* {
+  cursor: url("https://cdn.custom-cursor.com/db/4732/32/arrow2699.png"), auto;
+}
+
+a {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+}
+
+input {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+}
+
+#header-avatar {
+  cursor: url("https://cdn.custom-cursor.com/db/4731/32/arrow2699.png"), auto;
+}
+
+body:after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(#12101000 50%, #00000040 50%), linear-gradient(90deg, #ff00000f, #00ff0005, #0000ff0f);
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
