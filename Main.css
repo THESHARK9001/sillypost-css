@@ -1,5 +1,6 @@
 /*You can change the font and colors/background-colors to whatever you want, make sure to edit body font, too*/
 @import "https://fonts.googleapis.com/css?family=Exo+2";
+@import "https://fonts.googleapis.com/css?family=Pixelify+Sans";
 
 body {
   margin: 0;
@@ -10,7 +11,7 @@ body {
 }
 
 body > * {
-  font-family: "Exo 2", "Exo 2";
+  font-family: Pixelify Sans, Pixelify Sans;
 }
 
 #profile-bio > * {
