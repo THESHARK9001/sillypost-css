@@ -1,5 +1,6 @@
 /*Combined css for my profile page*/
 @import "https://fonts.googleapis.com/css?family=Exo+2";
+@import "https://fonts.googleapis.com/css?family=Pixelify+Sans";
 
 :root {
   --horizontal-duration: 29.91s;
@@ -51,13 +52,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000;
-  color: #fff;
   background-image: url("https://wallpaperaccess.com/full/2144614.jpg");
+  color: #fff;
 }
 
 body > * {
-  font-family: "Exo 2", "Exo 2";
+  font-family: Pixelify Sans, Pixelify Sans;
 }
 
 #profile-bio > * {
@@ -84,6 +84,7 @@ body > * {
   outline-offset: 5px;
   outline-color: #000;
   border-radius: 5px;
+  padding: 10px;
 }
 
 #navbar {
@@ -104,9 +105,17 @@ body > * {
   border-image: url(" ") 112 repeat;
   background: linear-gradient(to left, #000, #000);
   width: 100%;
-  padding: 0;
   border-radius: 5px;
   color: #8000ff;
+  padding: 5px;
+}
+
+#profile-top-left {
+  padding: 5px;
+}
+
+#profile-top-right {
+  padding: 5px;
 }
 
 .post-author {
