@@ -18,6 +18,10 @@
   border-radius: 5px;
 }
 
+#badges {
+  color: #000;
+}
+
 #profile-left > * {
   text-align: center;
 }
