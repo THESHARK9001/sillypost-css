@@ -9,13 +9,19 @@
   --vertical-delay: -3s;
 }
 
-#profile-left img {
+#profile-left > img:nth-child(1) {
   content: url('https://avatar.cdn.sillypost.net/75a30b09-95f0-4cde-be86-ebc28a3954d6.png');
   position: fixed;
   width: 128px;
   height: 128px;
   animation: var(--horizontal-duration) linear var(--horizontal-delay) infinite forwards horizontal, var(--vertical-duration) linear var(--vertical-delay) infinite forwards vertical;
   border-radius: 5px;
+}
+
+#profile-left img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #badges {
@@ -64,10 +70,6 @@ body {
 #wrapper {
   font-family: Pixelify Sans, Pixelify Sans;
   text-color: 
-}
-
-#profile-bio > * {
-  text-align: center;
 }
 
 .left > * {
@@ -121,6 +123,7 @@ body {
 
 #profile-right {
   padding: 5px;
+  text-align: center;
 }
 
 .post-author {
@@ -177,3 +180,4 @@ body:after {
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
 }
+
